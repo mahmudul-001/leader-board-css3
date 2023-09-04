@@ -1,0 +1,230 @@
+ /* -----------
+    fonts
+ --------- */
+ @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Open+Sans&family=Oswald&family=Playfair+Display&family=Poppins:wght@500&family=Work+Sans:wght@400;500&display=swap');
+
+ /* --------------------------
+    common styles
+---------------------------- */
+ * {
+     padding: 0;
+     margin: 0;
+ }
+
+ body {
+     font-family: 'Poppins', sans-serif;
+     background-color: #F3F1FF;
+ }
+
+ .container {
+     width: 75%;
+     margin: 0 auto;
+ }
+
+ .section-container {
+     background-color: #FFFFFF;
+     width: 70%;
+     padding: 30px 35px;
+     border-radius: 5px;
+     margin: 40px auto;
+
+ }
+
+ .section-title {
+     color: #562EFF;
+     font-size: 24px;
+     font-weight: 500;
+     padding: 30px 0px;
+ }
+
+ /* --------------------------
+    header styles
+---------------------------- */
+ .header {
+     background-color: #562EFF;
+ }
+
+ .header-contain {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px 0px;
+ }
+
+ .idea {
+     display: flex;
+     align-items: center;
+     gap: 15px;
+ }
+
+ .idea img {
+     width: 40px;
+     height: 50px;
+ }
+
+ .header-title {
+     color: #FFFFFF;
+     font-size: 24px;
+ }
+
+ nav {
+     display: flex;
+     align-items: center;
+     gap: 35px;
+ }
+
+ nav ul {
+     display: flex;
+     list-style: none;
+ }
+
+ nav li a {
+     color: #FFF;
+     font-size: 16px;
+     font-weight: 400;
+     text-decoration: none;
+     margin-left: 35px;
+ }
+
+ /* --------------------------
+    players styles
+---------------------------- */
+
+ .players {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 30px;
+     padding-bottom: 30px;
+     border-bottom: 2px solid #D1D1D1;
+
+ }
+
+ .player {
+     display: flex;
+     align-items: center;
+     gap: 16px;
+ }
+
+ .player img {
+     width: 56px;
+     height: 56px;
+ }
+
+ .player-title {
+     color: #000000;
+     font-size: 18px;
+     font-weight: 500;
+ }
+
+ /* --------------------------
+    blogs styles
+---------------------------- */
+ .blogs-container {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 30px;
+ }
+
+ .blog-contain {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+ }
+
+ .blog img {
+     width: 224px;
+     height: 127px;
+ }
+
+ .blog-details {
+     margin-right: 40px;
+
+ }
+
+ .blog-title {
+     color: #000000;
+     font-size: 20px;
+     font-weight: 500;
+     padding-bottom: 10px;
+ }
+
+ .author-name {
+     color: #9F9F9F;
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ .author-name a {
+     color: #562EFF;
+     font-size: 16px;
+     font-weight: 400;
+     text-decoration: none;
+     margin-left: 10px;
+ }
+
+ /* --------------------------
+    courses styles
+---------------------------- */
+ .courses-container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+ }
+
+ .course-contain img {
+     width: 260px;
+     height: 140px;
+ }
+
+ .course-title {
+     color: #1E1E1E;
+     font-family: Roboto;
+     font-size: 20px;
+     font-weight: 550;
+     padding: 5px 0px;
+
+ }
+
+ .course-description {
+     color: #ED6B4F;
+     font-family: Roboto;
+     font-size: 14px;
+     font-weight: 400;
+     padding: 10px 0px;
+ }
+
+ .rating {
+     display: flex;
+     align-items: center;
+ }
+ .rating i{
+    color: #FFC014;
+ }
+
+ .rate {
+     color: #A2A2A2;
+     font-size: 14px;
+     font-weight: 400;
+     margin-left: 20px;
+ }
+
+ .rate-hours {
+     color: #FF4A60;
+     background: #FFE4E8;
+     font-size: 14px;
+     font-weight: 600;
+     padding: 8px 15px;
+     margin-left: 20px;
+     border-radius: 30px;
+ }
+ .rate-hours i{
+    color: #FF4A60;
+
+ }
+ .blank-icon i{
+    color: #A2A2A2;
+ }
+
+ .rate-hours span {
+     margin-left: 8px;
+ }
+
