@@ -37,6 +37,16 @@
      padding: 30px 0px;
  }
 
+ .primary-color {
+     color: #FFFFFF;
+ }
+
+ .description {
+     color: #ffffffd6;
+     font-size: 13px;
+     font-weight: 350;
+ }
+
  /* --------------------------
     header styles
 ---------------------------- */
@@ -196,8 +206,9 @@
      display: flex;
      align-items: center;
  }
- .rating i{
-    color: #FFC014;
+
+ .rating i {
+     color: #FFC014;
  }
 
  .rate {
@@ -216,15 +227,133 @@
      margin-left: 20px;
      border-radius: 30px;
  }
- .rate-hours i{
-    color: #FF4A60;
+
+ .rate-hours i {
+     color: #FF4A60;
 
  }
- .blank-icon i{
-    color: #A2A2A2;
+
+ .blank-icon i {
+     color: #A2A2A2;
  }
 
  .rate-hours span {
      margin-left: 8px;
  }
 
+ /* --------------------------
+    footer section styles
+---------------------------- */
+ .footer-container {
+     background-color: #2303b1;
+ }
+
+ .contact-us {
+     width: 70%;
+     margin: 40px 0px;
+ }
+
+ .contact-container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 50px;
+ }
+
+ .contact-title {
+     color: #FFFFFF;
+     font-size: 17px;
+     font-weight: 400;
+     padding: 10px 0px;
+     border-bottom: 1px solid #D1D1D1;
+     margin-bottom: 30px;
+ }
+
+ input, textarea{
+    color: #A2A2A2;
+    font-size: 12px;
+    font-weight: 400;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  input[type=submit] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: Roboto;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+  input[type=submit]:hover{
+    opacity: 0.8;
+  }
+
+ .contact-social {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .contact-social a {
+     color: #ffffffd6;
+     font-size: 13px;
+     font-weight: 400;
+     text-decoration: none;
+     padding-left: 5px;
+ }
+
+ .fa-brands {
+     font-size: 18px;
+     width: 20px;
+     text-align: center;
+     padding: 8px;
+     border-radius: 50%;
+     margin: 8px 10px;
+ }
+ .fa-brands:hover {
+    color: #000000;
+    opacity: 0.7;
+}
+
+ .fa-facebook {
+     background: #3B5998;
+     color: white;
+ }
+
+ .fa-twitter {
+     background: #55ACEE;
+     color: white;
+ }
+
+ .fa-instagram {
+     background: #dd4b39;
+     color: white;
+ }
+
+ .fa-linkedin {
+     background: #007bb5;
+     color: white;
+ }
+
+ .fa-youtube {
+     background: #bb0000;
+     color: white;
+ }
+
+ .copyright{
+    color: #ffffffd6;
+    font-size: 11px;
+    font-weight: 300;
+    text-align: right;
+    padding: 20px 0px;
+ }
