@@ -365,3 +365,20 @@
  /* --------------------------
     Media Query styles
 ---------------------------- */
+/* mobile devices */
+@media only screen and(max-width: 688px) {
+
+    .container{
+        width: 100%;
+    }
+    .players{
+        background-color: red;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
+}
+.hide{
+    display: none;
+}
