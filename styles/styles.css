@@ -9,11 +9,15 @@
  * {
      padding: 0;
      margin: 0;
+     box-sizing: border-box;
  }
 
  body {
      font-family: 'Poppins', sans-serif;
      background-color: #F3F1FF;
+ }
+ img{
+    max-width: 100%;
  }
 
  .container {
@@ -319,7 +323,6 @@
 
  .fa-brands {
      font-size: 18px;
-     width: 20px;
      text-align: center;
      padding: 8px;
      border-radius: 50%;
@@ -365,20 +368,30 @@
  /* --------------------------
     Media Query styles
 ---------------------------- */
-/* mobile devices */
-@media only screen and(max-width: 688px) {
 
-    .container{
+/* -----------------------------------mobile devices-------------------------------------------- */
+
+@media only screen and (max-width: 688px) {
+    .container, .section-container, .courses-container, .contact-us{
         width: 100%;
+        padding: 20px 15px;
     }
-    .players{
-        background-color: red;
+    .section-title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .description {
+        font-size: 11px;
+        text-align: center;
+    }
+    .blog-title, .author-name{
+        text-align: center;
+    }
+    .players, .blogs-container, .courses-container, .contact-container{
         grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
     }
-    .player{
+    .player, .blog-contain{
         flex-direction: column;
     }
-}
-.hide{
-    display: none;
 }
